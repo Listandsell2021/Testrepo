@@ -1,8 +1,5 @@
 {
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "api/wsgi.py"
-    }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
   ]
 }
